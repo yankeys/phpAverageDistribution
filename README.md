@@ -1,7 +1,7 @@
 # phpAverageDistribution
 对于给定总数，返回平均分配的最佳分配方案
 
-```json
+```php
 /**
  * 根据给定的总数值返回每个单元的最值平均数
  *
@@ -21,9 +21,6 @@
  *          "c" => 2,
  *          ]
  */
- ```
- 
-```php
 if (! function_exists('get_avg_data')) {
     function get_avg_data($num, array $data)
     {
